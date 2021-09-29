@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 140
+per-file-ignores =
+    src/checkout.py:E501
+    src/model.py:E501
+max-complexity = 25
